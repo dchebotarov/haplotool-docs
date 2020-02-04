@@ -47,11 +47,16 @@ Visualizing haplotype groups
 
 Select the **Analysis** menu item in the navigation bar on the left.
 
-Select any estimate of the number of haplotypes you expect to see in the genomic 
+Select any estimate of the number of haplotypes you expect to see in this genomic region and click "Generate plot".
+
+You can also upload phenotype in the "Input" tab and check "Include phenotype" in the "Analysis" tab to have the phenotype visualized along with genotype. 
 
 
 Marker validation
 -----------------
+
+See the full documentation for this usage.
+
 
 
 
