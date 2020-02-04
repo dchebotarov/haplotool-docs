@@ -94,7 +94,7 @@ once it is published.
 Please check back for updates.
 
 
-
+.. include:: authors.rst
 
 
 
