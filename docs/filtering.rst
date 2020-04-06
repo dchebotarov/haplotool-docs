@@ -103,10 +103,23 @@ After **Preview filtering**,  click on **Save** to add the filtered dataset into
 Region-based filtering
 ----------------------
 
-You can create a subset based on genomic region 
-(provide Chromosome, From, To in the "By map" tab) 
-or based on numeric indices 
-(select "By marker number" tab, enter "From marker no." and "To marker no." ).
+You can create a subset of your genotype data that contains markers from a specific genomic region.
+
+The region can be specified as follows:
+
+* By physical position:
+
+  Fill in the "Chromosome", "From", "To" text boxes in the "By map" tab.
+
+.. image:: images/filtering/select_region_by_map.png 
+   :scale: 35%
+
+* By numeric range of markers:
+
+  Select "By marker number" tab, then enter "From marker no." and "To marker no." ).
+
+.. image:: images/filtering/select_region_by_marker_number.png
+   :scale: 35%
 
 Click **Create subset** to add the selected subset to the dataset list.
 
