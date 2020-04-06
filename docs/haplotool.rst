@@ -20,8 +20,8 @@ Contents:
 Overview
 ========
 
-|proj|_ helps to visualize genomic region of interest (e.g. candidate gene region) and associate haplotype goups to phenotype.
-It can be used to validate markers by visually and analytically confirming association of a marker with a haplotype that is associated to desirable trait.
+|proj|_ helps to visualize genomic region of interest (e.g. candidate gene region) and associate haplotype goups with phenotype.
+It can be used to validate markers by visually and analytically confirming association of a marker with a haplotype that is associated with desirable trait.
 
 See :doc:`/quickstart` page for an example of basic usage.
 
@@ -47,9 +47,9 @@ http://gobiin1.bti.cornell.edu:6083/projects/UT/repos/haplotool/browse/README.md
 
 Briefly, there are two options, we recommend using Docker.
 
-1) Installing using R Studio
+1) Installing using RStudio
 
-  1. Download R package archive ( `link <http://gobiin1.bti.cornell.edu:6083/projects/UT/repos/haplotool/browse/HaploTool.tar.gz>`  )  
+  1. Download R package archive (`link <http://gobiin1.bti.cornell.edu:6083/projects/UT/repos/haplotool/browse/HaploTool.tar.gz>`_)  
 
   2. In  RStudio:
 
@@ -74,6 +74,7 @@ Contribute
 ----------
 
 .. .. - Issue Tracker: github.com/$project/$project/issues
+
 - Source Code: http://gobiin1.bti.cornell.edu:6083/projects/UT/repos/haplotool/browse 
 
 
@@ -89,7 +90,7 @@ License
 -------
 .. .. |proj| is licensed under [ Apache 2.0 license. ]
 
-|proj| will be licensed under an open source license suitable for GOBii project 
+|proj| will be licensed under an open-source license suitable for GOBii Project 
 once it is published. 
 Please check back for updates.
 

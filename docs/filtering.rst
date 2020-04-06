@@ -10,7 +10,7 @@ After importing genotype data, it is often useful to see a few basic statistics 
 
 * For markers:
 
-  - Allele frequecny distribution
+  - Allele frequency distribution
   - Missing calls distribution
   - Proportion of heterozygous calls per marker
 
@@ -20,29 +20,33 @@ After importing genotype data, it is often useful to see a few basic statistics 
   - Proportion of heterozygous calls per sample
 
 
-After seeing the distribution, the user can set the thresholds for filter parameters (MAF, missing rate, heterozygosity) and save a filtered dataset. The details are given below
+After seeing the distribution, the user can set the thresholds for filter parameters (MAF, missing rate, heterozygosity) and save a filtered dataset. The details are given below.
 
 Marker QC and filtering
 ------------------------
 
-To perform marker-based filtering, select "Filter" in navbar and click on "Markers" tab in the main page.
+To perform marker-based filtering, select  "Filter" 
+in navbar and click on 
+"Markers" tab
+on the main page.
 
-A first step is to select some reasonable options for acceptable marker quality (if not selected, the defaults will be used), 
-and click on "*Preview filtering*" 
-to see both the distributions of basic statsistics and the selected thresholds.
+A first step is to select some reasonable options for acceptable marker quality (if not selected, the defaults will be used), and click on 
+**Preview filtering** button 
+to see both the distributions of basic statistics and the selected thresholds.
 
 
 .. image :: images/img-filtering-bymarker-start.png 
    :alt: Filtering by markers
 
 
-Upon clicking "*Preview filtering*",
-the following graphs are created
+Upon clicking **Preview filtering**,
+the following graphs are created:
 
 1)  Allele frequency distribution.
-   This will show distribution of frequencies of non-reference alleles. 
-   Here by frequency of ALT allele we mean the ratio of number of chromosomes carrying ALT allele to the total number of chromosomes with non-missing variant calls.
-   A vertical line at the selected MAF threshold value will be shown.
+
+  This will show distribution of frequencies of non-reference alleles. 
+  Here by frequency of ALT allele we mean the ratio of number of chromosomes carrying ALT allele to the total number of chromosomes with non-missing variant calls. 
+  A vertical line at the selected MAF threshold value will be shown.
 
 .. .. image :: images/AF.png
 ..   :alt: Allele frequency distribution
@@ -58,17 +62,22 @@ the following graphs are created
 
 3)  Missing calls - proportion of missing calls per SNP.
 
+
 4)  "AF vs hets". A scatterplot of allele frequency vs. proportion of hets.
    This graph allows one to judge about the level of heterozygosity for different values of allele frequency, thus enabling to visually estimate the levels of inbreeding (deviations from HWE).
 
 
-Along with the graphs, the text area "Filtering preview" will show how many markers remain if filtering is done with given  parameters.
+Along with the graphs, the text area 
+"Filtering preview"  will show how many markers remain if filtering is done with given  parameters.
 
-If you need to change the filtering threshold, please click "**Preview filtering**" again after changing those.
+If you need to adjust the filtering thresholds, please make the necessary changes and click 
+**Preview filtering** again.
 
-Once the filtering is satisfactory, enter a name for the filtered dataset and  click "**Save**".
+Once the filtering is satisfactory, enter a name for the filtered dataset and click 
+**Save**.
 
-The newly created dataset will be placed at the top of history and become the active dataset.
+The newly created dataset will be placed at the top of "Datasets" dropdown list in the navbar
+and will become the active dataset.
 
 
 
@@ -83,10 +92,10 @@ The following statistics are visualized:
 
  2. Proportion of heterozygous variants among all non-missing variants in a sample.
 
-Click on "*Preview*" to view the distributions of hets and missing calls per sample, 
+Click on **Preview** to view the distributions of hets and missing calls per sample, 
 along with vertical lines showing the selected thresholds. 
 
-After "Preview filtering", click on "**Save**" to add the filtered dataset into the dataset list.
+After **Preview filtering**,  click on **Save** to add the filtered dataset into the dataset list.
 
 
 
@@ -94,12 +103,14 @@ After "Preview filtering", click on "**Save**" to add the filtered dataset into 
 Region-based filtering
 ----------------------
 
-You can create a subset based on genomic region (provide Chromosome, From, To in the "By map" tab) 
-or based on numeric indices ( By marker number, enter From marker no. and To marker no.)
+You can create a subset based on genomic region 
+(provide Chromosome, From, To in the "By map" tab) 
+or based on numeric indices 
+(select "By marker number" tab, enter "From marker no." and "To marker no." ).
 
-Click "Create subset" to add the selected subset to the dataset list.
+Click **Create subset** to add the selected subset to the dataset list.
 
-The subset will contain all individuals from the original dataset, only markers will be affected.
+The subset will contain all samples from the original dataset, only markers will be affected.
 
 
 
